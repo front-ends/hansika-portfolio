@@ -1,0 +1,14 @@
+#arrow{
+  position: fixed;
+  left: 95%;
+  bottom: 5%;
+}
+#arrowNavLink>img,svg{
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1200.98px) { 
+#arrow{
+  display: none;
+}
+}

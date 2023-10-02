@@ -1,0 +1,96 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.cardImg{
+  width: 60%;  
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.prjLinks{
+  text-decoration: none;
+  color: black;
+}
+
+.abmCntItms>div>img,svg{
+ margin-top: 15px;
+}
+
+#main{
+  margin-top: 95px;
+}
+
+.mCntItms:hover div{
+  background-color: rgb(199, 199, 199) !important;
+}
+
+.abmCntItms:hover div{
+  background-color: rgb(199, 199, 199) !important;
+}
+
+#abtMeImgBg{
+  height: 540px;
+  width: 365px
+}
+
+#abtMeImgBg img{
+  height: 490px;
+  width: 325px;
+  object-fit: cover; 
+  transition: width 0.3s, height 0.3s; 
+} 
+
+ #abtMeImgBg:hover img {
+  width: 101%; 
+  height: 101%; 
+}
+
+
+.skillCard{
+  height: 200px;
+  width: 200px;
+  object-fit: cover; 
+  transition: width 0.3s, height 0.3s; 
+} 
+
+.skillCard:hover {
+  width: 103%; 
+  height: 103%; 
+}
+
+.prjCrds{
+  width:600px;
+  height:500px;
+  object-fit: cover; 
+  transition: width 0.3s, height 0.3s; 
+}
+
+.prjCrds:hover {
+  width: 101%; 
+  height: 101%; 
+}
+
+/* #cntImgDivCol{
+  height: 560px;
+  width: 630px;  
+
+} */
+
+#cntImgDivCol img{
+  height: 560px;
+  width: 630px;  
+  object-fit: cover; 
+  transition: width 0.3s, height 0.3s; 
+}
+
+#cntImgDivCol:hover img{
+  width: 94%; 
+  height: 94%; 
+}
+
+
